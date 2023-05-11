@@ -34,8 +34,6 @@ function handleTryClick(event) {
     xAttempts++
 }
 
-console.log(randomNumber)
-
 function handleResetClick(){
     toggleScreen()
     randomNumber = Math.round(Math.random() * 10)
